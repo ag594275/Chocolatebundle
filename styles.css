@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(39, 38, 38);
+}
+
+.chocolates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chocolate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right: 20px;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+  }
+  
+  .chocolate img{
+
+    box-shadow: 3px 3px 10px 4px rgb(101 99 99);;
+    object-fit: fill;
+    width: 120px;
+    height: 120px;
+  }
+
+  .chocolate label{
+    color: white;
+  }
+
+  #total-price {
+    font-weight: bold;
+    color: orange;
+  }
+  
+  h2{
+    text-align: center;
+    color: white;
+  }
+  h3{
+    text-align: center;
+    color: white;
+  }
